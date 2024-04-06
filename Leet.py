@@ -1,0 +1,41 @@
+# is palindrome
+class Solution:
+    def isPalindrome(self, x: int) -> bool:
+        string = str(x)
+        if string == string[::-1] :
+            return True
+        
+# game divisor
+class Solution:
+    def divisorGame(self, n: int) -> bool:
+        if n%2!=0:
+            return False
+        else:
+            return True
+# maximum wealth finder
+class Solution:
+    def maximumWealth(self, accounts: List[List[int]]) -> int:
+        max_total = 0
+        for i in accounts:
+            total = sum(i)
+            if total>max_total:
+                max_total = total
+        return max_total
+
+# fliping
+class Solution:
+    def flipAndInvertImage(self, image: List[List[int]]) -> List[List[int]]:
+        for i in image:
+            i.reverse()
+            for j in range(len(i)):
+                i[j]=1-i[j]
+        return image
+    
+    
+# sqaure root
+class Solution:
+    def mySqrt(self, x: int) -> int:
+        
+        return int(math.sqrt(x))
+       
+        
