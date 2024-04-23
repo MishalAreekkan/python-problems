@@ -20,8 +20,20 @@
 #             return True
 #         return False
 
-s = "hello world"
-r = ""
-for i in s:
-    r = i+r
-print(r)
+# s = "hello world"
+# r = ""
+# for i in s:
+#     r = i+r
+# print(r)
+
+#Write a Python program that check if a string only contains numbers. If it does, print True. Else, print False.
+
+# def string(x):
+#     try:
+#         return x.isnumeric()
+#     except AttributeError:
+#         return False
+# y = input("enter a string :")
+# result = string(y)
+# print(result)
+
