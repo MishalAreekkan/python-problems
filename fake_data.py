@@ -1006,3 +1006,26 @@
 # insert into car (id, company, model, year, price, color) values (998, 'Chevrolet', 'G-Series G20', 1994, '$58639.13', 'Khaki');
 # insert into car (id, company, model, year, price, color) values (999, 'Mercedes-Benz', 'SLK-Class', 2004, '$45341.67', 'Blue');
 # insert into car (id, company, model, year, price, color) values (1000, 'Chevrolet', 'Tahoe', 1997, '$85012.61', 'Aquamarine');
+
+
+##################################################################################
+
+
+create table person (
+	id INT,
+	first_name VARCHAR(50),
+	last_name VARCHAR(50),
+	email VARCHAR(50),
+	gender VARCHAR(50),
+	dob DATE
+);
+insert into person (id, first_name, last_name, email, gender, dob) values (1, 'arjun', 'Gecke', 'sgecke0@etsy.com', 'Male', '9/9/1992');
+insert into person (id, first_name, last_name, email, gender, dob) values (2, 'Clywd', 'Suscens', 'csuscens1@ycombinator.com', 'Male', '12/11/1982');
+insert into person (id, first_name, last_name, email, gender, dob) values (3, 'Hayyim', 'Bellefant', 'hbellefant2@google.co.jp', 'Male', '1/4/2002');
+insert into person (id, first_name, last_name, email, gender, dob) values (4, 'Shantee', 'Bruno', 'sbruno3@friendfeed.com', 'Female', '12/18/1997');
+insert into person (id, first_name, last_name, email, gender, dob) values (5, 'Dal', 'Ladell', 'dladell4@redcross.org', 'Male', '12/13/2000');
+insert into person (id, first_name, last_name, email, gender, dob) values (6, 'Donall', 'Devin', 'ddevin5@cmu.edu', 'Male', '12/29/1989');
+insert into person (id, first_name, last_name, email, gender, dob) values (7, 'Darline', 'Erickson', 'derickson6@flickr.com', 'Female', '7/6/2000');
+insert into person (id, first_name, last_name, email, gender, dob) values (8, 'Wilden', 'Hulbert', 'whulbert7@weebly.com', 'Male', '7/5/1996');
+insert into person (id, first_name, last_name, email, gender, dob) values (9, 'Aggie', 'Shakspeare', 'ashakspeare8@shareasale.com', 'Female', '7/2/1981');
+insert into person (id, first_name, last_name, email, gender, dob) values (10, 'Delphine', 'Glendza', 'dglendza9@edublogs.org', 'Female', '2/1/1987');
