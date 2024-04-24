@@ -1011,21 +1011,47 @@
 ##################################################################################
 
 
-create table person (
+# create table person (
+# 	id INT,
+# 	first_name VARCHAR(50),
+# 	last_name VARCHAR(50),
+# 	email VARCHAR(50),
+# 	gender VARCHAR(50),
+# 	dob DATE
+# );
+# insert into person (id, first_name, last_name, email, gender, dob) values (1, 'arjun', 'Gecke', 'sgecke0@etsy.com', 'Male', '9/9/1992');
+# insert into person (id, first_name, last_name, email, gender, dob) values (2, 'Clywd', 'Suscens', 'csuscens1@ycombinator.com', 'Male', '12/11/1982');
+# insert into person (id, first_name, last_name, email, gender, dob) values (3, 'Hayyim', 'Bellefant', 'hbellefant2@google.co.jp', 'Male', '1/4/2002');
+# insert into person (id, first_name, last_name, email, gender, dob) values (4, 'Shantee', 'Bruno', 'sbruno3@friendfeed.com', 'Female', '12/18/1997');
+# insert into person (id, first_name, last_name, email, gender, dob) values (5, 'Dal', 'Ladell', 'dladell4@redcross.org', 'Male', '12/13/2000');
+# insert into person (id, first_name, last_name, email, gender, dob) values (6, 'Donall', 'Devin', 'ddevin5@cmu.edu', 'Male', '12/29/1989');
+# insert into person (id, first_name, last_name, email, gender, dob) values (7, 'Darline', 'Erickson', 'derickson6@flickr.com', 'Female', '7/6/2000');
+# insert into person (id, first_name, last_name, email, gender, dob) values (8, 'Wilden', 'Hulbert', 'whulbert7@weebly.com', 'Male', '7/5/1996');
+# insert into person (id, first_name, last_name, email, gender, dob) values (9, 'Aggie', 'Shakspeare', 'ashakspeare8@shareasale.com', 'Female', '7/2/1981');
+# insert into person (id, first_name, last_name, email, gender, dob) values (10, 'Delphine', 'Glendza', 'dglendza9@edublogs.org', 'Female', '2/1/1987');
+
+
+
+################################################################################################################
+
+
+
+create table car (
 	id INT,
-	first_name VARCHAR(50),
-	last_name VARCHAR(50),
-	email VARCHAR(50),
-	gender VARCHAR(50),
-	dob DATE
+	company VARCHAR(50),
+	model VARCHAR(50),
+	price VARCHAR(50)
 );
-insert into person (id, first_name, last_name, email, gender, dob) values (1, 'arjun', 'Gecke', 'sgecke0@etsy.com', 'Male', '9/9/1992');
-insert into person (id, first_name, last_name, email, gender, dob) values (2, 'Clywd', 'Suscens', 'csuscens1@ycombinator.com', 'Male', '12/11/1982');
-insert into person (id, first_name, last_name, email, gender, dob) values (3, 'Hayyim', 'Bellefant', 'hbellefant2@google.co.jp', 'Male', '1/4/2002');
-insert into person (id, first_name, last_name, email, gender, dob) values (4, 'Shantee', 'Bruno', 'sbruno3@friendfeed.com', 'Female', '12/18/1997');
-insert into person (id, first_name, last_name, email, gender, dob) values (5, 'Dal', 'Ladell', 'dladell4@redcross.org', 'Male', '12/13/2000');
-insert into person (id, first_name, last_name, email, gender, dob) values (6, 'Donall', 'Devin', 'ddevin5@cmu.edu', 'Male', '12/29/1989');
-insert into person (id, first_name, last_name, email, gender, dob) values (7, 'Darline', 'Erickson', 'derickson6@flickr.com', 'Female', '7/6/2000');
-insert into person (id, first_name, last_name, email, gender, dob) values (8, 'Wilden', 'Hulbert', 'whulbert7@weebly.com', 'Male', '7/5/1996');
-insert into person (id, first_name, last_name, email, gender, dob) values (9, 'Aggie', 'Shakspeare', 'ashakspeare8@shareasale.com', 'Female', '7/2/1981');
-insert into person (id, first_name, last_name, email, gender, dob) values (10, 'Delphine', 'Glendza', 'dglendza9@edublogs.org', 'Female', '2/1/1987');
+insert into car (id, company, model, price) values (1, 'Mercedes-Benz', 'S-Class', '$6499.87');
+insert into car (id, company, model, price) values (2, 'Audi', '80', '$8114.54');
+insert into car (id, company, model, price) values (3, 'Dodge', 'Neon', '$2433.07');
+insert into car (id, company, model, price) values (4, 'Chevrolet', 'Suburban 1500', '$4789.52');
+insert into car (id, company, model, price) values (5, 'Mercedes-Benz', 'M-Class', '$6133.44');
+insert into car (id, company, model, price) values (6, 'Jeep', 'Wrangler', '$7566.26');
+insert into car (id, company, model, price) values (7, 'MINI', 'Cooper', '$7875.13');
+insert into car (id, company, model, price) values (8, 'Mitsubishi', 'Challenger', '$9491.25');
+insert into car (id, company, model, price) values (9, 'Buick', 'Somerset', '$3925.23');
+insert into car (id, company, model, price) values (10, 'GMC', 'Savana 2500', '$3771.83');
+
+
+
