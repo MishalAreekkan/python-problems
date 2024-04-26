@@ -983,10 +983,6 @@
 # insert into car (id, company, model, year, price, color) values (975, 'Mazda', 'Millenia', 1997, '$83804.39', 'Purple');
 # insert into car (id, company, model, year, price, color) values (976, 'Chevrolet', 'Cobalt', 2008, '$32651.35', 'Puce');
 # insert into car (id, company, model, year, price, color) values (977, 'Subaru', 'Legacy', 2008, '$50235.45', 'Purple');
-# insert into car (id, company, model, year, price, color) values (978, 'Acura', 'MDX', 2007, '$88122.48', 'Blue');
-# insert into car (id, company, model, year, price, color) values (979, 'Chevrolet', 'S10', 1998, '$26611.07', 'Khaki');
-# insert into car (id, company, model, year, price, color) values (980, 'Chrysler', 'Cirrus', 2000, '$88090.55', 'Violet');
-
 
 ##################################################################################
 
