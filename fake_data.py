@@ -991,33 +991,20 @@
 # insert into car (id, company, model, year, price, color) values (983, 'Pontiac', 'Grand Prix', 2000, '$15772.02', 'Teal');
 # insert into car (id, company, model, year, price, color) values (984, 'Ford', 'Focus', 2000, '$55908.30', 'Goldenrod');
 # insert into car (id, company, model, year, price, color) values (985, 'Chevrolet', 'Tracker', 2003, '$6613.03', 'Goldenrod');
-# insert into car (id, company, model, year, price, color) values (986, 'Toyota', 'Corolla', 2009, '$38365.91', 'Pink');
-# insert into car (id, company, model, year, price, color) values (987, 'Lincoln', 'Aviator', 2004, '$28938.36', 'Maroon');
-# insert into car (id, company, model, year, price, color) values (988, 'Nissan', 'NX', 1993, '$45736.97', 'Crimson');
-# insert into car (id, company, model, year, price, color) values (989, 'Dodge', 'Viper', 1993, '$60264.92', 'Khaki');
-# insert into car (id, company, model, year, price, color) values (990, 'Chevrolet', 'Express 1500', 2004, '$59558.36', 'Red');
-# insert into car (id, company, model, year, price, color) values (991, 'Ferrari', '612 Scaglietti', 2009, '$51962.40', 'Violet');
-# insert into car (id, company, model, year, price, color) values (992, 'Buick', 'LeSabre', 1997, '$23880.87', 'Red');
-# insert into car (id, company, model, year, price, color) values (993, 'Honda', 'Accord', 1985, '$85506.32', 'Green');
-# insert into car (id, company, model, year, price, color) values (994, 'Honda', 'Insight', 2000, '$35689.59', 'Pink');
-# insert into car (id, company, model, year, price, color) values (995, 'Isuzu', 'Ascender', 2008, '$61886.14', 'Yellow');
-# insert into car (id, company, model, year, price, color) values (996, 'BMW', 'M5', 2006, '$85989.63', 'Blue');
-# insert into car (id, company, model, year, price, color) values (997, 'Toyota', 'T100', 1993, '$81040.43', 'Red');
-# insert into car (id, company, model, year, price, color) values (998, 'Chevrolet', 'G-Series G20', 1994, '$58639.13', 'Khaki');
-# insert into car (id, company, model, year, price, color) values (999, 'Mercedes-Benz', 'SLK-Class', 2004, '$45341.67', 'Blue');
-# insert into car (id, company, model, year, price, color) values (1000, 'Chevrolet', 'Tahoe', 1997, '$85012.61', 'Aquamarine');
 
 
 ##################################################################################
 
 
 # create table person (
-# 	id INT,
+# 	id BIGSERIAL NOT NULL PRIMARY KEY,
 # 	first_name VARCHAR(50),
 # 	last_name VARCHAR(50),
 # 	email VARCHAR(50),
 # 	gender VARCHAR(50),
-# 	dob DATE
+# 	dob DATE,
+#     car_id   BIGINT REFERENCES car(id),
+#     UNIQUE(car_id)
 # );
 # insert into person (id, first_name, last_name, email, gender, dob) values (1, 'arjun', 'Gecke', 'sgecke0@etsy.com', 'Male', '9/9/1992');
 # insert into person (id, first_name, last_name, email, gender, dob) values (2, 'Clywd', 'Suscens', 'csuscens1@ycombinator.com', 'Male', '12/11/1982');
@@ -1032,26 +1019,26 @@
 
 
 
-################################################################################################################
+# # ################################################################################################################
 
 
 
-create table car (
-	id INT,
-	company VARCHAR(50),
-	model VARCHAR(50),
-	price VARCHAR(50)
-);
-insert into car (id, company, model, price) values (1, 'Mercedes-Benz', 'S-Class', '$6499.87');
-insert into car (id, company, model, price) values (2, 'Audi', '80', '$8114.54');
-insert into car (id, company, model, price) values (3, 'Dodge', 'Neon', '$2433.07');
-insert into car (id, company, model, price) values (4, 'Chevrolet', 'Suburban 1500', '$4789.52');
-insert into car (id, company, model, price) values (5, 'Mercedes-Benz', 'M-Class', '$6133.44');
-insert into car (id, company, model, price) values (6, 'Jeep', 'Wrangler', '$7566.26');
-insert into car (id, company, model, price) values (7, 'MINI', 'Cooper', '$7875.13');
-insert into car (id, company, model, price) values (8, 'Mitsubishi', 'Challenger', '$9491.25');
-insert into car (id, company, model, price) values (9, 'Buick', 'Somerset', '$3925.23');
-insert into car (id, company, model, price) values (10, 'GMC', 'Savana 2500', '$3771.83');
+# create table car (
+# 	id BIGSERIAL NOT NULL PRIMARY KEY,
+# 	company VARCHAR(50),
+# 	model VARCHAR(50),
+# 	price VARCHAR(50)
+# );
+# insert into car (id, company, model, price) values (1, 'Mercedes-Benz', 'S-Class', '$6499.87');
+# insert into car (id, company, model, price) values (2, 'Audi', '80', '$8114.54');
+# insert into car (id, company, model, price) values (3, 'Dodge', 'Neon', '$2433.07');
+# insert into car (id, company, model, price) values (4, 'Chevrolet', 'Suburban 1500', '$4789.52');
+# insert into car (id, company, model, price) values (5, 'Mercedes-Benz', 'M-Class', '$6133.44');
+# insert into car (id, company, model, price) values (6, 'Jeep', 'Wrangler', '$7566.26');
+# insert into car (id, company, model, price) values (7, 'MINI', 'Cooper', '$7875.13');
+# insert into car (id, company, model, price) values (8, 'Mitsubishi', 'Challenger', '$9491.25');
+# insert into car (id, company, model, price) values (9, 'Buick', 'Somerset', '$3925.23');
+# insert into car (id, company, model, price) values (10, 'GMC', 'Savana 2500', '$3771.83');
 
 
 
