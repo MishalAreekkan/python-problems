@@ -986,11 +986,6 @@
 # insert into car (id, company, model, year, price, color) values (978, 'Acura', 'MDX', 2007, '$88122.48', 'Blue');
 # insert into car (id, company, model, year, price, color) values (979, 'Chevrolet', 'S10', 1998, '$26611.07', 'Khaki');
 # insert into car (id, company, model, year, price, color) values (980, 'Chrysler', 'Cirrus', 2000, '$88090.55', 'Violet');
-# insert into car (id, company, model, year, price, color) values (981, 'Hyundai', 'Tiburon', 1998, '$2172.29', 'Crimson');
-# insert into car (id, company, model, year, price, color) values (982, 'Infiniti', 'M', 2010, '$80855.79', 'Purple');
-# insert into car (id, company, model, year, price, color) values (983, 'Pontiac', 'Grand Prix', 2000, '$15772.02', 'Teal');
-# insert into car (id, company, model, year, price, color) values (984, 'Ford', 'Focus', 2000, '$55908.30', 'Goldenrod');
-# insert into car (id, company, model, year, price, color) values (985, 'Chevrolet', 'Tracker', 2003, '$6613.03', 'Goldenrod');
 
 
 ##################################################################################
