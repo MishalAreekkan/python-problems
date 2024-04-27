@@ -1,4 +1,4 @@
-Q-1. Write an SQL query to fetch “FIRST_NAME” from Worker table using
+<!-- Q-1. Write an SQL query to fetch “FIRST_NAME” from Worker table using
 the alias name as <WORKER_NAME>.
 Q-2. Write an SQL query to fetch “FIRST_NAME” from Worker table in
 upper case.
@@ -82,4 +82,4 @@ Q-48. Write an SQL query to fetch nth max salaries from a table.
 Q-49. Write an SQL query to fetch departments along with the total salaries
 paid for each of them.
 Q-50. Write an SQL query to fetch the names of workers who earn the
-highest salary.
+highest salary. -->
