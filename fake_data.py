@@ -994,10 +994,9 @@
 # 	email VARCHAR(50),
 # 	gender VARCHAR(50),
 # 	dob DATE,
-#     car_id   BIGINT REFERENCES car(id),
-#     UNIQUE(car_id)
+#    car_id   BIGINT REFERENCES car(id),
+#    UNIQUE(car_id)
 # );
-# insert into person (id, first_name, last_name, email, gender, dob) values (1, 'arjun', 'Gecke', 'sgecke0@etsy.com', 'Male', '9/9/1992');
 # insert into person (id, first_name, last_name, email, gender, dob) values (2, 'Clywd', 'Suscens', 'csuscens1@ycombinator.com', 'Male', '12/11/1982');
 # insert into person (id, first_name, last_name, email, gender, dob) values (3, 'Hayyim', 'Bellefant', 'hbellefant2@google.co.jp', 'Male', '1/4/2002');
 # insert into person (id, first_name, last_name, email, gender, dob) values (4, 'Shantee', 'Bruno', 'sbruno3@friendfeed.com', 'Female', '12/18/1997');

@@ -83,3 +83,13 @@ Q-49. Write an SQL query to fetch departments along with the total salaries
 paid for each of them.
 Q-50. Write an SQL query to fetch the names of workers who earn the
 highest salary. -->
+
+
+SELECT *
+FROM (
+    SELECT *,
+           ROW_NUMBER() OVER (ORDER BY some_column) AS row_num,
+           COUNT(*) OVER () AS total_rows
+    FROM your_table_name
+) AS subquery
+WHERE row_num <= total_rows / 2;
