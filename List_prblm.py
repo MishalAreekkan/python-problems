@@ -36,84 +36,84 @@
 ## ANSWERS ##
 
 
-# fruits = ['mango', 'kiwi', 'strawberry', 'guava', 'pineapple', 'mandarin orange']
+fruits = ['mango', 'kiwi', 'strawberry', 'guava', 'pineapple', 'mandarin orange']
 
-# updated = [x.upper() for x in fruits]
+updated = [x.upper() for x in fruits]
+print(updated)
+
+fruits = ['mango', 'kiwi', 'strawberry', 'guava', 'pineapple', 'mandarin orange']
+updated = [x.capitalize() for x in fruits] 
+print(updated)
+
+fruits = ['mango', 'kiwi', 'strawberry', 'guava', 'pineapple', 'mandarin orange','anss']
+vowels = ['a','e','i','o','u']
+updated = [sum(x in vowels for x in frui) for frui in fruits]
+print(updated)
+
+fruits = ['mango', 'kiwi', 'strawberry', 'guava', 'pineapple', 'mandarin orange','anss']
+updated = [x for x in fruits if len(x)>5]
 # print(updated)
 
-# fruits = ['mango', 'kiwi', 'strawberry', 'guava', 'pineapple', 'mandarin orange']
-# updated = [x.capitalize() for x in fruits] 
-# print(updated)
+fruits = ['mango', 'kiwi', 'strawberry', 'guava', 'pineapple', 'mandarin orange','anss']
+updated = [x for x in fruits if len(x)==5]
+print(updated)
 
-# fruits = ['mango', 'kiwi', 'strawberry', 'guava', 'pineapple', 'mandarin orange','anss']
-# vowels = ['a','e','i','o','u']
-# updated = [sum(x in vowels for x in frui) for frui in fruits]
-# print(updated)
+fruits = ['mango', 'kiwi', 'strawberry', 'guava', 'pineapple', 'mandarin orange','anss']
+updated = [len(p) for p in fruits]
+print(updated)
 
-# fruits = ['mango', 'kiwi', 'strawberry', 'guava', 'pineapple', 'mandarin orange','anss']
-# updated = [x for x in fruits if len(x)>5]
-# # print(updated)
+fruits = ['mango', 'kiwi', 'strawberry', 'guava', 'pineapple', 'mandarin orange','anss']
+updated = [(x for x in i if x == "a")for i in fruits]
+print(updated)
 
-# fruits = ['mango', 'kiwi', 'strawberry', 'guava', 'pineapple', 'mandarin orange','anss']
-# updated = [x for x in fruits if len(x)==5]
-# print(updated)
-
-# fruits = ['mango', 'kiwi', 'strawberry', 'guava', 'pineapple', 'mandarin orange','anss']
-# updated = [len(p) for p in fruits]
-# print(updated)
-
-# fruits = ['mango', 'kiwi', 'strawberry', 'guava', 'pineapple', 'mandarin orange','anss']
-# updated = [(x for x in i if x == "a")for i in fruits]
-# print(updated)
-
-# numbers = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 17, 19, 23, 256, -8, -4, -2, 5, -9]
-# even = [x for x in numbers if x%2==0]
-# print(even)
+numbers = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 17, 19, 23, 256, -8, -4, -2, 5, -9]
+even = [x for x in numbers if x%2==0]
+print(even)
 
 
-# numbers = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 17, 19, 23, 256, -8, -4, -2, 5, -9]
-# positive = [x for x in numbers if x >0]
-# print(positive)
-# numbers = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 17, 19, 23, 256, -8, -4, -2, 5, -9]
-# two_numeric = [x for x in numbers if x>10]
-# print(two_numeric)
+numbers = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 17, 19, 23, 256, -8, -4, -2, 5, -9]
+positive = [x for x in numbers if x >0]
+print(positive)
+numbers = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 17, 19, 23, 256, -8, -4, -2, 5, -9]
+two_numeric = [x for x in numbers if x>10]
+print(two_numeric)
 
-# numbers = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 17, 19, 23, 256, -8, -4, -2, 5, -9]
-# two = [[int(digit) for digit in str(num) if len(str(num)) > 2] for num in numbers]
-# print(two)
+numbers = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 17, 19, 23, 256, -8, -4, -2, 5, -9]
+two = [[int(digit) for digit in str(num) if len(str(num)) > 2] for num in numbers]
+print(two)
 
-# numbers = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 17, 19, 23, 256, -8, -4, -2, 5, -9]
-# sqr = [x**2 for x in numbers]
-# print(sqr)
+numbers = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 17, 19, 23, 256, -8, -4, -2, 5, -9]
+sqr = [x**2 for x in numbers]
+print(sqr)
 
-# numbers = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 17, 19, 23, 256, -8, -4, -2, 5, -9]
-# odd_neg = [x for x in numbers if x<1 or x%2!=0]
-# print(odd_neg)
-# numbers = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 17, 19, 23, 256, -8, -4, -2, 5, -9]
-# updated = [x+5 for x in numbers]
-# print(updated)
-# {'G': {'G': 'GG', 'F': 'GF'}, 'F': {'G': 'FG', 'F': 'FF'}}
-# l="GFG"
-# new_dict = {x:{y:x+y for y in l} for x in l}
-# # print(new_dict)
-# simple_dict = {x:{y:y+x for y in l} for x in l}
-# print(simple_dict)
-
-
-# words = ["apple", "banana", "apple", "orange", "banana", "apple"]
-# new_dict = {x:words.count(x) for x in set(words)}
+numbers = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 17, 19, 23, 256, -8, -4, -2, 5, -9]
+odd_neg = [x for x in numbers if x<1 or x%2!=0]
+print(odd_neg)
+numbers = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 17, 19, 23, 256, -8, -4, -2, 5, -9]
+updated = [x+5 for x in numbers]
+print(updated)
+{'G': {'G': 'GG', 'F': 'GF'}, 'F': {'G': 'FG', 'F': 'FF'}}
+l="GFG"
+new_dict = {x:{y:x+y for y in l} for x in l}
 # print(new_dict)
+simple_dict = {x:{y:y+x for y in l} for x in l}
+print(simple_dict)
 
-# matrix = [[1, 2, 3], [4, 5], [6, 7, 8, 9]]
-# updated = [x for y in matrix for x in y]
-# print(updated)
 
-# l1 = [1,2,3,4,5]
-# l2 = [4,5,6,7,8,9]
-# l1.extend(l2)
-# result = []
-# for i in l1:
-#     if i not in result:
-#         result.append(i)
-# print(result)
+words = ["apple", "banana", "apple", "orange", "banana", "apple"]
+new_dict = {x:words.count(x) for x in set(words)}
+print(new_dict)
+
+matrix = [[1, 2, 3], [4, 5], [6, 7, 8, 9]]
+updated = [x for y in matrix for x in y]
+print(updated)
+
+l1 = [1,2,3,4,5]
+l2 = [4,5,6,7,8,9]
+l1.extend(l2)
+result = []
+for i in l1:
+    if i not in result:
+        result.append(i)
+print(result)
 
