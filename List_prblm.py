@@ -41,9 +41,9 @@ fruits = ['mango', 'kiwi', 'strawberry', 'guava', 'pineapple', 'mandarin orange'
 updated = [x.upper() for x in fruits]
 print(updated)
 
-# fruits = ['mango', 'kiwi', 'strawberry', 'guava', 'pineapple', 'mandarin orange']
-# updated = [x.capitalize() for x in fruits] 
-# print(updated)
+fruits = ['mango', 'kiwi', 'strawberry', 'guava', 'pineapple', 'mandarin orange']
+updated = [x.capitalize() for x in fruits] 
+print(updated)
 
 # fruits = ['mango', 'kiwi', 'strawberry', 'guava', 'pineapple', 'mandarin orange','anss']
 # vowels = ['a','e','i','o','u']
