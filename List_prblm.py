@@ -36,23 +36,23 @@
 ## ANSWERS ##
 
 
-fruits = ['mango', 'kiwi', 'strawberry', 'guava', 'pineapple', 'mandarin orange']
+# fruits = ['mango', 'kiwi', 'strawberry', 'guava', 'pineapple', 'mandarin orange']
 
-updated = [x.upper() for x in fruits]
-print(updated)
-
-fruits = ['mango', 'kiwi', 'strawberry', 'guava', 'pineapple', 'mandarin orange']
-updated = [x.capitalize() for x in fruits] 
-print(updated)
-
-fruits = ['mango', 'kiwi', 'strawberry', 'guava', 'pineapple', 'mandarin orange','anss']
-vowels = ['a','e','i','o','u']
-updated = [sum(x in vowels for x in frui) for frui in fruits]
-print(updated)
-
-fruits = ['mango', 'kiwi', 'strawberry', 'guava', 'pineapple', 'mandarin orange','anss']
-updated = [x for x in fruits if len(x)>5]
+# updated = [x.upper() for x in fruits]
 # print(updated)
+
+# fruits = ['mango', 'kiwi', 'strawberry', 'guava', 'pineapple', 'mandarin orange']
+# updated = [x.capitalize() for x in fruits] 
+# print(updated)
+
+# fruits = ['mango', 'kiwi', 'strawberry', 'guava', 'pineapple', 'mandarin orange','anss']
+# vowels = ['a','e','i','o','u']
+# updated = [sum(x in vowels for x in frui) for frui in fruits]
+# print(updated)
+
+# fruits = ['mango', 'kiwi', 'strawberry', 'guava', 'pineapple', 'mandarin orange','anss']
+# updated = [x for x in fruits if len(x)>5]
+# # print(updated)
 
 # fruits = ['mango', 'kiwi', 'strawberry', 'guava', 'pineapple', 'mandarin orange','anss']
 # updated = [x for x in fruits if len(x)==5]
