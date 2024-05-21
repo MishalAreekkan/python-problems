@@ -52,3 +52,26 @@
 # ]
 # Y = {user[0]: user for user in users}
 # print(Y)
+
+# import random
+# list1 = ["mis","sui","yaz","ans","vicky","niz"]
+# score = {x:random.randint(50,100) for x in list1}
+# print(score)
+
+# new_score = {'mis': 58, 'sui': 94, 'yaz': 71, 'ans': 53, 'vicky': 81, 'niz': 96}
+
+# dic = {x:y for (x,y) in new_score.items() if y>80}
+
+# print(dic)
+
+# import pandas 
+
+# student_score = {
+#     "student" : ["mishal","yaz","ssuiii","ansas","vicky"],
+#     "score":[55,65,75,85,95]
+# }
+# # for (x,y) in student_score.items():
+# #     print(y)
+
+# newone = pandas.DataFrame(student_score)
+# print(newone)
