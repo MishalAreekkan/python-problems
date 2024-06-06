@@ -69,3 +69,33 @@
 # l = lambda x,y : x + y
 # result = reduce(l,x)
 # print(result)
+
+# class loop:
+#     def __init__(self,initial,final):
+#         self.initial = initial
+#         self.final = final
+        
+#     def __iter__(self):
+#         return self
+        
+#     def __next__(self):
+#         if self.initial > self.final:
+#             return StopIteration
+#         else:
+#             self.initial += 1
+#             return self.initial - 1
+                
+# l = loop(1,5)
+# print(next(l))
+# print(next(l))
+
+# def gener(start,end):
+#     current = start
+#     while current<end:
+#         yield current
+#         current += 1
+        
+# new = gener(1,5)
+# print(next(new))
+# print(next(new))
+# print(next(new))
