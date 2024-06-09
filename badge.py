@@ -85,17 +85,17 @@
 #             self.initial += 1
 #             return self.initial - 1
                 
-l = loop(1,5)
-print(next(l))
-print(next(l))
+# l = loop(1,5)
+# print(next(l))
+# print(next(l))
 
-def gener(start,end):
-    current = start
-    while current<end:
-        yield current
-        current += 1
+# def gener(start,end):
+#     current = start
+#     while current<end:
+#         yield current
+#         current += 1
         
-new = gener(1,5)
-print(next(new))
-print(next(new))
-print(next(new))
+# new = gener(1,5)
+# print(next(new))
+# print(next(new))
+# print(next(new))
