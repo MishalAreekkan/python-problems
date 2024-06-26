@@ -45,3 +45,23 @@
 #         x = [i**2 for i in nums]
 #         x.sort()
 #         return x 
+
+
+# 26################
+# class Solution:
+#     def removeDuplicates(self, nums: List[int]) -> int:
+#         # new= []
+#         # for i in nums:
+#         #     if i not in new:
+#         #         new.append(i)
+#         #     new.sort()
+#         # return len(new)
+
+#         s = set(nums)
+#         nums.clear()
+#         print(nums)
+        
+#         for i in s:
+#             nums.append(i)
+#         nums.sort()
+#         return len(nums) 
