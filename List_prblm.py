@@ -120,8 +120,8 @@
 # nums = [0,0,1,1,1,2,2,3,3,4]
 
 
-# x = set(nums)
-# print(x)
-# y = list(x)
-# # y.sort()
-# print(y)
+x = set(nums)
+print(x)
+y = list(x)
+# y.sort()
+print(y)
