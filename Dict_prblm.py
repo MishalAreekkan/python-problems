@@ -66,12 +66,12 @@
 
 # import pandas 
 
-# student_score = {
-#     "student" : ["mishal","yaz","ssuiii","ansas","vicky"],
-#     "score":[55,65,75,85,95]
-# }
-# # for (x,y) in student_score.items():
-# #     print(y)
+student_score = {
+    "student" : ["mishal","yaz","ssuiii","ansas","vicky"],
+    "score":[55,65,75,85,95]
+}
+# for (x,y) in student_score.items():
+#     print(y)
 
-# newone = pandas.DataFrame(student_score)
-# print(newone)
+newone = pandas.DataFrame(student_score)
+print(newone)
