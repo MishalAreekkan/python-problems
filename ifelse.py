@@ -18,27 +18,27 @@
 # L
 # Y
 # N
-# Example Output
-# Thank you for choosing Python Pizza Deliveries!
-# Your final bill is: $28.
-# print("Thank you for choosing Python Pizza Deliveries!")
-# size = input() # What size pizza do you want? S, M, or L
-# add_pepperoni = input() # Do you want pepperoni? Y or N
-# extra_cheese = input() # Do you want extra cheese? Y or N
-# bill = 0
-# if size == s:
-#   bill += 15
-# elif size == m:
-#   bill += 20
-# else:
-#   bill += 25
-# add_pepperoni =input("Do you want pepperoni? Y or N") 
-# if add_pepperoni == y :
-#   if size ==s :
-#     bill += 2
-#   elif size == m or size == l:
-#     bill += 3
-# extra_cheese = input("Do you want extra cheese? Y or N") 
-# if extra_cheese == y:
-#   bill += 1
+Example Output
+Thank you for choosing Python Pizza Deliveries!
+Your final bill is: $28.
+print("Thank you for choosing Python Pizza Deliveries!")
+size = input() # What size pizza do you want? S, M, or L
+add_pepperoni = input() # Do you want pepperoni? Y or N
+extra_cheese = input() # Do you want extra cheese? Y or N
+bill = 0
+if size == s:
+  bill += 15
+elif size == m:
+  bill += 20
+else:
+  bill += 25
+add_pepperoni =input("Do you want pepperoni? Y or N") 
+if add_pepperoni == y :
+  if size ==s :
+    bill += 2
+  elif size == m or size == l:
+    bill += 3
+extra_cheese = input("Do you want extra cheese? Y or N") 
+if extra_cheese == y:
+  bill += 1
 
